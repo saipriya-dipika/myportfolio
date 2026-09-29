@@ -520,7 +520,7 @@ body.dark-mode #theme-toggle .moon-icon {
 
 /* About selfie */
 .about-selfie {
-  width: min(100%, 360px);
+  width: min(100%, 280px);
   height: 360px;
   margin-bottom: 34px;
   border-radius: 14px;
