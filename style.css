@@ -518,6 +518,19 @@ body.dark-mode #theme-toggle .moon-icon {
   height: auto;
 }
 
+.about-selfie {
+  width: min(100%, 280px);
+  margin-bottom: 34px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.about-selfie img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .about-copy h2 {
   margin-bottom: 28px;
 }
