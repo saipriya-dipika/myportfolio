@@ -504,63 +504,50 @@ body.dark-mode #theme-toggle .moon-icon {
   align-items: start;
 }
 
+/* About image */
 .about-photo {
   width: 100%;
-  max-width: 480px;
-  border-radius: 18px;
-  overflow: hidden;
-  box-shadow: var(--shadow);
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .about-photo img {
   display: block;
   width: 100%;
   height: auto;
-}
-
-/* About selfie */
-/* .about-selfie {
-  width: min(100%, 280px);
-  height: 360px;
-  margin-bottom: 34px;
+  object-fit: contain;
   border-radius: 14px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
-.about-selfie {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    display: block;
-    object-fit: contain;
-    border-radius: 12px;
-    box-shadow:
-        0 20px 50px rgba(0, 0, 0, 0.22),
-        0 4px 12px rgba(0, 0, 0, 0.12);
+  box-shadow:
+    0 22px 55px rgba(0, 0, 0, 0.24),
+    0 6px 18px rgba(0, 0, 0, 0.12);
 }
 
-/* .about-selfie img {
+/* If the image itself uses the about-selfie class */
+.about-selfie {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
   display: block;
-  width: 360px;
-  height: 280px;
-  max-width: none;
-  object-fit: cover;
-  transform-origin: center;
-  border-radius: 2px;
-} */
+  object-fit: contain;
+  border-radius: 14px;
+  box-shadow:
+    0 22px 55px rgba(0, 0, 0, 0.24),
+    0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.about-selfie img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 14px;
+}
 
 @media (max-width: 800px) {
+  .about-photo,
   .about-selfie {
-    width: 260px;
-    height: 340px;
-  }
-
-  .about-selfie img {
-    width: 340px;
-    height: 260px;
+    max-width: 360px;
+    margin: 0 auto;
   }
 }
 
