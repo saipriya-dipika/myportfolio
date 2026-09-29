@@ -536,7 +536,7 @@ body.dark-mode #theme-toggle .moon-icon {
   height: 280px;
   max-width: none;
   object-fit: cover;
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
   transform-origin: center;
   border-radius: 2px;
 }
