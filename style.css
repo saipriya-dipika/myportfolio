@@ -519,7 +519,7 @@ body.dark-mode #theme-toggle .moon-icon {
 }
 
 /* About selfie */
-.about-selfie {
+/* .about-selfie {
   width: min(100%, 280px);
   height: 360px;
   margin-bottom: 34px;
@@ -528,6 +528,15 @@ body.dark-mode #theme-toggle .moon-icon {
   display: flex;
   align-items: center;
   justify-content: center;
+} */
+
+.about-selfie {
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    border-radius: 12px;
 }
 
 .about-selfie img {
