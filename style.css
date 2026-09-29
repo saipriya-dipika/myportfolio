@@ -532,9 +532,10 @@ body.dark-mode #theme-toggle .moon-icon {
 
 .about-selfie {
     width: 100%;
-    max-width: 560px;
-    height: auto;
+    max-width: 520px;
+    height: 520px;
     object-fit: contain;
+    object-position: center;
     display: block;
     border-radius: 12px;
 }
