@@ -518,17 +518,39 @@ body.dark-mode #theme-toggle .moon-icon {
   height: auto;
 }
 
+/* About selfie */
 .about-selfie {
   width: min(100%, 280px);
+  height: 360px;
   margin-bottom: 34px;
   border-radius: 14px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-selfie img {
   display: block;
-  width: 100%;
-  height: auto;
+  width: 360px;
+  height: 280px;
+  max-width: none;
+  object-fit: cover;
+  transform: rotate(90deg);
+  transform-origin: center;
+  border-radius: 2px;
+}
+
+@media (max-width: 800px) {
+  .about-selfie {
+    width: 260px;
+    height: 340px;
+  }
+
+  .about-selfie img {
+    width: 340px;
+    height: 260px;
+  }
 }
 
 .about-copy h2 {
