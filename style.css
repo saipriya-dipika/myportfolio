@@ -572,7 +572,9 @@ body.dark-mode #theme-toggle .moon-icon {
 }
 
 .private {
-  max-width: 900px;
+  max-width: 1230px;
+  width: 100%;
+  margin: 0 auto;
   padding: 52px;
   border: 1px solid var(--line);
   border-radius: 20px;
