@@ -536,7 +536,6 @@ body.dark-mode #theme-toggle .moon-icon {
   height: 280px;
   max-width: none;
   object-fit: cover;
-  transform: rotate(-90deg);
   transform-origin: center;
   border-radius: 2px;
 }
@@ -550,7 +549,6 @@ body.dark-mode #theme-toggle .moon-icon {
   .about-selfie img {
     width: 340px;
     height: 260px;
-    transform: rotate(-90deg);
   }
 }
 
