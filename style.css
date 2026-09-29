@@ -550,6 +550,7 @@ body.dark-mode #theme-toggle .moon-icon {
   .about-selfie img {
     width: 340px;
     height: 260px;
+    transform: rotate(-90deg);
   }
 }
 
